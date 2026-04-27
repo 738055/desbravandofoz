@@ -1,4 +1,3 @@
-// a10receptivo2.0/app/experiencias/page.tsx
 import React from 'react';
 import { Metadata } from 'next';
 import { TourService } from '@/services/tourService';

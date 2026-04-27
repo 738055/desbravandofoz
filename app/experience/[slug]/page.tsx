@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props) {
   const post = await TourService.getPostBySlug(params.slug);
   if (!post) return { title: 'Artigo não encontrado' };
   return {
-    title: `${post.title.pt} | A10 Blog`,
+    title: `${post.title.pt} | Desbravando Foz Blog`,
     description: post.shortDesc.pt,
     openGraph: { images: [post.imageUrl] }
   };

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin/', '/api/'], // Bloqueia acesso de robôs a áreas administrativas
     },
-    sitemap: 'https://www.a10receptivoiguassu.com/sitemap.xml',
+    sitemap: 'https://www.desbravandofoz.com/sitemap.xml',
   };
 }

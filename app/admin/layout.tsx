@@ -35,7 +35,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!supabase) {
-        if(email === 'admin@a10.com' && password === 'admin') setSession({ user: { email: 'admin' } });
+        if(email === 'admin@desbravandofoz.com' && password === 'admin') setSession({ user: { email: 'admin' } });
         return;
     }
     const { error } = await supabase.auth.signInWithPassword({ email, password });
@@ -55,11 +55,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <form onSubmit={handleLogin} className="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm space-y-4">
           <div className="flex justify-center text-primary mb-2"><Lock size={32}/></div>
-          <h1 className="font-bold text-2xl text-center text-gray-800">Admin A10</h1>
+          <h1 className="font-bold text-2xl text-center text-gray-800">Admin Desbravando Foz</h1>
           <input 
             type="email" value={email} onChange={e=>setEmail(e.target.value)} 
             className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-primary outline-none" 
-            placeholder="admin@a10.com" 
+            placeholder="admin@desbravandofoz.com" 
           />
           <input 
             type="password" value={password} onChange={e=>setPassword(e.target.value)} 
@@ -84,7 +84,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     <div className="min-h-screen bg-gray-50 flex font-sans">
       <aside className="w-64 bg-white border-r border-gray-200 fixed h-full z-20 hidden md:flex flex-col">
         <div className="p-6 border-b border-gray-100">
-          <h2 className="font-serif font-bold text-xl text-primary">A10 Admin</h2>
+          <h2 className="font-serif font-bold text-xl text-primary">Desbravando Foz Admin</h2>
         </div>
         
         <nav className="flex-1 p-4 space-y-1">

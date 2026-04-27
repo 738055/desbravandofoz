@@ -1,4 +1,4 @@
-// a10receptivo2.0/app/sobre/page.tsx
+
 import React from 'react';
 import { Metadata } from 'next';
 import { Shield, Clock, Heart, Users } from 'lucide-react';

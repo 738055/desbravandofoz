@@ -51,7 +51,7 @@ export default function ContactPage() {
                         </div>
                         <div>
                             <h3 className="font-bold text-primary">E-mail</h3>
-                            <p className="text-gray-600 text-sm">a10receptivo@gmail.com</p>
+                            <p className="text-gray-600 text-sm">desbravandofoz@gmail.com</p>
                         </div>
                     </div>
                 </div>

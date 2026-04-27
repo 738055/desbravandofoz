@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { TourService } from '@/services/tourService';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://www.a10receptivoiguassu.com';
+  const baseUrl = 'https://www.desbravandofoz.com';
 
   // Inicializa arrays vazios para evitar falhas no build caso o banco esteja inacessível
   let tours: any[] = [];

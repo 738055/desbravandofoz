@@ -14,7 +14,7 @@ export const translations = {
       badge: 'Receptivo Oficial em Foz',
       title1: 'Descubra a Magia das',
       title2: 'Cataratas do Iguaçu',
-      subtitle: 'Sua experiência premium na Tríplice Fronteira. Tours privativos, transfers exclusivos e roteiros personalizados com a A10 Receptivo.',
+      subtitle: 'Sua experiência premium na Tríplice Fronteira. Tours privativos, transfers exclusivos e roteiros personalizados com a Desbravando Foz Receptivo.',
       searchPlaceholder: 'Qual experiência você procura?',
       labelDest: 'Destino / Passeio',
       labelDate: 'Data da Viagem',
@@ -102,7 +102,7 @@ export const translations = {
       newsletterDesc: 'Inscreva-se para receber descontos em transfers e novidades de Foz do Iguaçu.',
       emailPlaceholder: 'Seu e-mail',
       subscribe: 'Inscrever-se',
-      servicesTitle: 'Serviços A10',
+      servicesTitle: 'Serviços Desbravando Foz',
       service1: 'Receptivo em Foz',
       service2: 'Transfers Privativos',
       service3: 'Grupos e Eventos',
@@ -113,7 +113,7 @@ export const translations = {
       privacy: 'Privacidade',
       terms: 'Termos',
       sitemap: 'Mapa do Site',
-      copyright: '© 2025 | A10 Receptivo Foz do Iguaçu'
+      copyright: '© 2025 | Desbravando Foz Receptivo Foz do Iguaçu'
     },
     admin: {
       dashboard: 'Dashboard',
@@ -171,7 +171,7 @@ export const translations = {
       badge: 'Official Receptive Agency',
       title1: 'Discover the Magic of',
       title2: 'Iguazu Falls',
-      subtitle: 'Your premium experience in the Triple Border. Private tours, exclusive transfers, and custom itineraries with A10 Receptivo.',
+      subtitle: 'Your premium experience in the Triple Border. Private tours, exclusive transfers, and custom itineraries with Desbravando Foz Receptivo.',
       searchPlaceholder: 'What experience are you looking for?',
       labelDest: 'Destination / Tour',
       labelDate: 'Travel Date',
@@ -259,7 +259,7 @@ export const translations = {
       newsletterDesc: 'Subscribe to receive discounts on transfers and news from Foz do Iguaçu.',
       emailPlaceholder: 'Your email',
       subscribe: 'Subscribe',
-      servicesTitle: 'A10 Services',
+      servicesTitle: 'Desbravando Foz Services',
       service1: 'Receptive in Foz',
       service2: 'Private Transfers',
       service3: 'Groups & Events',
@@ -270,7 +270,7 @@ export const translations = {
       privacy: 'Privacy',
       terms: 'Terms',
       sitemap: 'Sitemap',
-      copyright: '© 2025 | A10 Receptivo Foz do Iguaçu'
+      copyright: '© 2025 | Desbravando Foz Receptivo Foz do Iguaçu'
     },
     admin: {
       dashboard: 'Dashboard',
@@ -328,7 +328,7 @@ export const translations = {
       badge: 'Receptivo Oficial en Foz',
       title1: 'Descubra la Magia de',
       title2: 'Cataratas del Iguazú',
-      subtitle: 'Su experiencia premium en la Triple Frontera. Tours privados, traslados exclusivos e itinerarios a medida con A10 Receptivo.',
+      subtitle: 'Su experiencia premium en la Triple Frontera. Tours privados, traslados exclusivos e itinerarios a medida con Desbravando Foz Receptivo.',
       searchPlaceholder: '¿Qué experiencia busca?',
       labelDest: 'Destino / Paseo',
       labelDate: 'Fecha de Viaje',
@@ -416,7 +416,7 @@ export const translations = {
       newsletterDesc: 'Suscríbase para recibir descuentos en traslados y noticias de Foz do Iguaçu.',
       emailPlaceholder: 'Su e-mail',
       subscribe: 'Suscribirse',
-      servicesTitle: 'Servicios A10',
+      servicesTitle: 'Servicios Desbravando Foz',
       service1: 'Receptivo en Foz',
       service2: 'Traslados Privados',
       service3: 'Grupos y Eventos',
@@ -427,7 +427,7 @@ export const translations = {
       privacy: 'Privacidad',
       terms: 'Términos',
       sitemap: 'Mapa del Sitio',
-      copyright: '© 2025 | A10 Receptivo Foz do Iguaçu'
+      copyright: '© 2025 | Desbravando Foz Receptivo Foz do Iguaçu'
     },
     admin: {
       dashboard: 'Panel de Control',

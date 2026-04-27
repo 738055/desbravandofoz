@@ -18,17 +18,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   
   if (!tour) {
     return {
-      title: 'Experiência não encontrada | A10 Receptivo',
+      title: 'Experiência não encontrada | Desbravando Foz Receptivo',
       robots: { index: false } // Evita indexar páginas de erro 404
     };
   }
 
   const title = tour.title?.pt || 'Detalhes do Passeio';
   const description = tour.seo?.metaDescription?.pt || tour.description?.pt || 'Reserve seu passeio em Foz do Iguaçu.';
-  const url = `https://www.a10receptivoiguassu.com/tour/${tour.slug}`;
+  const url = `https://www.desbravandofoz.com/tour/${tour.slug}`;
 
   return {
-    title: `${title} | A10 Receptivo`,
+    title: `${title} | Desbravando Foz Receptivo`,
     description: description,
     alternates: {
       canonical: url,
@@ -59,17 +59,17 @@ export default async function Page({ params }: PageProps) {
     "description": tour.description?.pt,
     "brand": {
       "@type": "Brand",
-      "name": "A10 Receptivo"
+      "name": "Desbravando Foz Receptivo"
     },
     "offers": {
       "@type": "Offer",
-      "url": `https://www.a10receptivoiguassu.com/tour/${tour.slug}`,
+      "url": `https://www.desbravandofoz.com/tour/${tour.slug}`,
       "priceCurrency": "BRL",
       "price": tour.basePrice,
       "availability": "https://schema.org/InStock",
       "seller": {
         "@type": "Organization",
-        "name": "A10 Receptivo"
+        "name": "Desbravando Foz Receptivo"
       }
     },
     // Adiciona estrelas se houver avaliações
