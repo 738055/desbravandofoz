@@ -166,7 +166,7 @@ const TourDetailsPage: React.FC<TourDetailsPageProps> = ({ tour }) => {
     const message = `*Olá! Gostaria de reservar:* %0A%0A🏞️ *${tour.title[language]}*%0A📅 Data: ${date || 'A definir'}%0A👥 Pessoas: ${guests} ${tierInfo}%0A💰 Valor Estimado: R$ ${currentPrice.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
     // Pequeno delay para garantir que o pixel dispare antes de mudar de aba
     setTimeout(() => {
-        window.open(`https://wa.me/5545991083852?text=${message}`, '_blank');
+        window.open(`https://wa.me/5545991278886?text=${message}`, '_blank');
     }, 300);
   };
 

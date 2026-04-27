@@ -91,7 +91,7 @@ export default function CheckoutPage() {
         })),
       });
 
-    const phoneNumber = "5545991083852"; // Replace with actual agency number
+    const phoneNumber = "5545991278886"; // Replace with actual agency number
     const url = `https://wa.me/${phoneNumber}?text=${message}`;
     
     setTimeout(() => {

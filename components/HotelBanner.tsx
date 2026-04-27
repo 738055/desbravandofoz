@@ -33,7 +33,7 @@ const HotelBanner = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="https://wa.me/5545991083852" target="_blank" rel="noopener noreferrer">
+            <Link href="https://wa.me/5545991278886" target="_blank" rel="noopener noreferrer">
               <Button variant="secondary" className="shadow-xl shadow-secondary/30 hover:-translate-y-1 flex items-center gap-2">
                 <Phone size={16} />
                 {t.cta}
